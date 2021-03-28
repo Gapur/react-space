@@ -2,6 +2,26 @@
   "name": "react-space",
   "version": "0.1.0",
   "private": true,
+  "description": "React Space Wep App with Three and Fiber",
+  "author": "Gapur Kassym",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gapur/react-space.git"
+  },
+  "homepage": "https://github.com/Gapur/react-space/blob/master/README.md",
+  "keywords": [
+    "react",
+    "three",
+    "threejs",
+    "zustand",
+    "react-three-fiber",
+    "fiber",
+    "javascript",
+    "animation",
+    "3d",
+    "renderer"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
