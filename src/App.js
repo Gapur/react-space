@@ -1,4 +1,3 @@
-import './App.css';
 import React, { useRef, useEffect, useMemo } from 'react'
 import { Canvas, useFrame } from 'react-three-fiber'
 import create from 'zustand'
@@ -84,7 +83,7 @@ function App() {
       ))}
       <Stars />
     </Canvas>
-  );
+  )
 }
 
-export default App;
+export default App
