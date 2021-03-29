@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react'
 import { useFrame } from 'react-three-fiber'
 import create from 'zustand'
 
-const BOX_COUNT = 200
+const BOX_COUNT = 120
 
 const boxIds = new Array(BOX_COUNT).fill().map((_, idx) => idx)
 const boxIdsCoordinates = boxIds.reduce((acc, id) => ({ ...acc, [id]: [Math.random() * Math.PI, Math.random() * Math.PI, Math.random() * Math.PI] }), 0)
@@ -10,7 +10,7 @@ const boxIdsCoordinates = boxIds.reduce((acc, id) => ({ ...acc, [id]: [Math.rand
 export const useStore = create(set => ({
   boxes: boxIds,
   coordinates: boxIdsCoordinates,
-  turn: () => {
+  mutate: () => {
     set(state => {
       const coordinates = {}
       for (let i = 0; i < state.boxes.length; i++) {

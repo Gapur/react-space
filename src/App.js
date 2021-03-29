@@ -6,15 +6,15 @@ import { Box, useStore } from './Box'
 import { Stars } from './Stars'
 
 function App() {
-  const [boxes, turn] = useStore(state => [state.boxes, state.turn], shallow)
+  const [boxes, mutate] = useStore(state => [state.boxes, state.mutate], shallow)
 
   useEffect(() => {
-    function move() {
-      turn()
-      requestAnimationFrame(move)
+    function animate() {
+      mutate()
+      requestAnimationFrame(animate)
     }
-    move()
-  }, [turn])
+    animate()
+  }, [mutate])
 
   return (
     <Canvas>
