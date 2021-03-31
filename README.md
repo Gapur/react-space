@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/Gapur/react-native-twilio-chat/blob/master/assets/logo.png" />
+  <img src="https://github.com/Gapur/react-space/blob/master/assets/logo.png" />
   <br/>
   React-Three-Fiber
 </h1>
@@ -12,16 +12,16 @@ Today I want to talk about 3D Animation in JavaScript development. Is it possibl
 
 ## Base Concepts
 
-# WebGL
+### WebGL
 WebGL(Web Graphics Library) is a cross-platform, free JavaScript API for creating 3D graphics in a web browser without plugins. When you work with WebGL, we have to describe each point, line, face, and so on. It is like a low-level system.
 
-Three.js
+### Three.js
 Three.js is a cross-browser JavaScript library used to create and display animated 3D computer graphics with components in a web browser using WebGL. Therefore, Three.js speed up the development process with graphics. Three.js has three main things as a name:
 scene — the place where all the action will happen;
 camera — captures and displays all objects on the scene;
 renderer — shows scene captured by the camera.
 
-React-three-fiber
+### React-three-fiber
 react-three-fiber is a React renderer for three.js on the react and react-native apps. You can build reusable react components with own state, hooks, and props to the corresponding three.js primitives. All objects in three.js will work very well without exception and additional overhead.
 
 
@@ -172,7 +172,7 @@ Last, We displayed our 3D scene on the browser with Canvas.
 ## Let’s Demo Our React Space App 
 
 <p align="center">
-  <img width="600"src="https://github.com/Gapur/react-native-twilio-chat/blob/master/assets/example.gif">
+  <img width="600"src="https://github.com/Gapur/react-space/blob/master/assets/example.gif">
 </p>
 
 ## How to contribute?
