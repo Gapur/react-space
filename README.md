@@ -4,7 +4,7 @@
   React-Three-Fiber
 </h1>
 
-Build a Power 3D Animation on React
+Build a Power 3D Animation with React
 
 Quickly get started with a react-three-fiber
 
