@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/Gapur/react-space/blob/master/assets/logo.png" />
+  <img src="https://github.com/Gapur/react-space/blob/main/assets/logo.jpeg" />
   <br/>
   React-Three-Fiber
 </h1>
@@ -17,9 +17,9 @@ WebGL(Web Graphics Library) is a cross-platform, free JavaScript API for creatin
 
 ### Three.js
 Three.js is a cross-browser JavaScript library used to create and display animated 3D computer graphics with components in a web browser using WebGL. Therefore, Three.js speed up the development process with graphics. Three.js has three main things as a name:
-scene — the place where all the action will happen;
-camera — captures and displays all objects on the scene;
-renderer — shows scene captured by the camera.
+- scene — the place where all the action will happen;
+- camera — captures and displays all objects on the scene;
+- renderer — shows scene captured by the camera.
 
 ### React-three-fiber
 react-three-fiber is a React renderer for three.js on the react and react-native apps. You can build reusable react components with own state, hooks, and props to the corresponding three.js primitives. All objects in three.js will work very well without exception and additional overhead.
@@ -172,7 +172,7 @@ Last, We displayed our 3D scene on the browser with Canvas.
 ## Let’s Demo Our React Space App 
 
 <p align="center">
-  <img width="600"src="https://github.com/Gapur/react-space/blob/master/assets/example.gif">
+  <img width="600"src="https://github.com/Gapur/react-space/blob/main/assets/example.gif">
 </p>
 
 ## How to contribute?
